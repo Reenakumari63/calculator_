@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="frame">
+      <p class="heading">Calculator</p>
+      <div class="display">
+        <input type="text" id="i" disabled>
+      </div>
+      <div class="buttong">
+         <input type="button" class="button" value="9" onclick="i.value += '9'">
+         <input type="button" class="button" value="8" onclick="i.value+='8'">
+         <input type="button" class="button" value="7" onclick="i.value +='7'">
+         <input type="button" class="button" value="+" onclick="i.value+='+'">
+
+      </div>
+
+      <div class="buttong">
+        <input type="button" class="button" value="6" onclick="i.value+= '6'">
+        <input type="button" class="button" value="5" onclick="i.value+='5'">
+        <input type="button" class="button" value="4" onclick="i.value+='4'">
+        <input type="button" class="button" value="-" onclick="i.value+='-'">
+
+     </div>
+
+     <div class="buttong">
+        <input type="button" class="button" value="3" onclick="i.value+= '3'">
+        <input type="button" class="button" value="2" onclick="i.value+='2'">
+        <input type="button" class="button" value="1" onclick="i.value+='1'">
+        <input type="button" class="button" value="*" onclick="i.value+='*'">
+
+     </div>
+
+     <div class="buttong">
+        <input type="button" class="button" value="C" onclick="i.value = ''">
+        <input type="button" class="button" value="0" onclick="i.value+='0'">
+        <input type="button" class="button" value="/" onclick="i.value+='/'">
+        <input type="button" class="button" value="=" onclick="i.value=eval(i.value)">
+
+     </div>
+
+     
+
+      
+    </div>
+</body>
+</html>
